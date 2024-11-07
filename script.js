@@ -15,16 +15,16 @@ contain.style.height= `${G_WIDTH}px`;
 
 
 tam.addEventListener ('click', function() {
-    x = y = Number(prompt('Introduzca el tamaño del grid, no puede ser mayor a 100'));
+    x = y = Number(prompt('Enter the grid size, it cannot be larger than 100'));
     console.log (typeof(x));
     console.log (x);
 
    switch(true){
     case (isNaN(x)):
-        alert('Introduzca un valor correcto');
+        alert('Please enter a correct value');
         break;
     case (x > 100):
-        alert('El valor introducido es muy grande presione el boton y coleque un numero entre 1 a 100');
+        alert('The value entered is too large, press the button and enter a number between 1 and 100');
         break;
     case (x < 101):
         console.log (x);
