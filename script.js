@@ -24,7 +24,7 @@ tam.addEventListener ('click', function() {
         alert('Please enter a correct value');
         break;
     case (x > 100):
-        alert('The value entered is too large, press the button and enter a number between 1 and 100');
+        alert('The value entered is too large, press the Resize button and enter a number between 1 and 100');
         break;
     case (x < 101):
         console.log (x);
