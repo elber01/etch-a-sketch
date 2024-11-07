@@ -18,10 +18,9 @@ tam.addEventListener ('click', function() {
     x = y = Number(prompt('Introduzca el tamaño del grid, no puede ser mayor a 100'));
     console.log (typeof(x));
     console.log (x);
-    /*console.log (x === isNaN(x));*/
-     
+
    switch(true){
-    case (x.isNaN(x)):
+    case (isNaN(x)):
         alert('Introduzca un valor correcto');
         break;
     case (x > 100):
